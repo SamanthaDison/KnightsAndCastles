@@ -67,6 +67,7 @@ namespace KnightsAndCastles.Repositories
             WHERE id = @knightId
             LIMIT 1";
             _db.Execute(sql, new { knightId });
+
         }
     }
 }
